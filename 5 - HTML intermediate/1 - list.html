@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordered list and Unordered list</title>
+</head>
+<body>
+    <h1>Unordered list</h1>
+
+    <!-- <ul> Unordered list - Lista não ordenada -->
+    <!-- 
+        Atributos: "disc"; "circle"; "square";
+        type="disc" - NÃO RECOMENDADO
+        style="list-style-type:square"
+    -->
+    <ul style="list-style-type:disc;">
+        <!-- <li> List item - Item da lista -->
+        <li>Veículos</li>
+        <li>
+            Tecnologia
+            <!-- Nested list - Lista aninhada -->
+            <ul>
+                <li>Computadores</li>
+                <li>Celulares</li>
+            </ul>
+        </li>
+    </ul>
+
+    <h1>Ordered list</h1>
+    <!-- <ol> Ordered list - Lista ordenada -->
+    <!-- 
+        Atributos: "1"; "a"; "A"; "i"; "I"
+        type="1" - NÃO RECOMENDADO
+        style="list-style-type:1"
+    -->
+    <ol>
+        <li>Max Verstapen</li>
+        <li>Lando Norris</li>
+        <li>
+            Oscar Piastri
+            <ol style="list-style-type:circle;">
+                <li>Punição de 5 seg</li>
+            </ol>
+        </li>
+        <li>Lewis Hamilton</li>
+    </ol>
+    
+</body>
+</html>
