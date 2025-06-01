@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>More tables</title>
+
+    <style>
+        caption {
+            background-color: black;
+            color: white;
+        }
+        
+        table, td, th {
+            border: 1px solid black;
+            text-align: center;
+            padding: 5px;
+        }
+
+        tfoot {
+            background-color: cornflowerblue;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>More on tables</h1>
+
+    <hr>
+
+    <!-- 
+        caption -> Legenda / título da tabela
+        theader -> Table Header (cabeçalho da tabela)
+        tbody -> Table Body (corpo da tabela)
+        tfoot -> Table Footer (rodapé da tabela)
+    -->
+    
+    <br>
+
+    <table>
+        <caption>Listagem de pilotos campeões da F1</caption>
+
+        <thead>
+            <tr>
+                <th>Piloto</th>
+                <th>Total</th>
+                <th>Temporadas</th>
+                <th>Campeão</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Michael Schumacher</td>
+                <td rowspan="2">7</td>
+                <td>1994, 1995, 2000, 2001, 2002, 2003, 2004</td>
+                <td>24º</td>
+            </tr>
+            <tr>
+                <td>Lewis Hamilton</td>
+                <td>2008, 2014, 2015, 2017, 2018, 2019, 2020</td>
+                <td>30º</td>
+            </tr>
+            <tr>
+                <td>Juan Manuel Fangio</td>
+                <td>5</td>
+                <td>1951, 1954, 1955, 1956, 1957</td>
+                <td>2º</td>
+            </tr>
+            <tr>
+                <td>Alain Prost</td>
+                <td rowspan="3">4</td>
+                <td>1985, 1986, 1989, 1993</td>
+                <td>21º</td>
+            </tr>
+            <tr>
+                <td>Sebastian Vettel</td>
+                <td>2010, 2011, 2012, 2013</td>
+                <td>32º</td>
+            </tr>
+            <tr>
+                <td>Max Verstappen</td>
+                <td>2021, 2022, 2023, 2024</td>
+                <td>34º</td>
+            </tr>
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <td>Quantidade total de titulos</td>
+                <td colspan="3">16</td>
+            </tr>
+        </tfoot>
+    </table>
+
+</body>
+</html>
