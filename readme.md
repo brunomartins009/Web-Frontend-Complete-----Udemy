@@ -1,25 +1,27 @@
-# 🚀 Web-Frontend-Complete-----Udemy - Em andamento
+# 🚀 Web-Frontend-Complete-----Udemy - In Progress
 
-Este repositório contém os projetos que desenvolvi como estudante durante o curso de Web Front-End. Durante o curso, foram abordadas tecnologias modernas da Web, como **HTML5, CSS3, JavaScript, TypeScript, React, Next.js e Tailwind CSS**, além de aprender prototipação com **Figma**.
+This repository contains the projects I developed as a student during the Web Front-End course. The course covered modern Web technologies such as **HTML5, CSS3, JavaScript, TypeScript, React, Next.js, and Tailwind CSS**, as well as interface prototyping with **Figma**.
 
 ---
 
-## 📘 Tecnologias Abordadas
+## 📘 Technologies Covered
 
-- **HTML5**: Estruturação de páginas, formulários, tabelas, etc. ✅
-- **CSS3**: Estilização intermediária e avançada (Flexbox, Grid, Parallax). ⏳
-- **JavaScript (ES6+)**: Manipulação de eventos, DOM, lógica e funções.
-- **TypeScript**: Tipagem estática, interfaces, classes e generics.
-- **React e Next.js**: Componentes, props, rotas, estados, SSR.
-- **Tailwind CSS**: Estilização moderna e utilitária.
-- **Figma**: Prototipagem, design de interface e componentes reutilizáveis.
+* **HTML5**: Page structure, forms, tables, etc. ✅
+* **CSS3**: Intermediate and advanced styling (Flexbox, Grid, Parallax). ⏳
+* **JavaScript (ES6+)**: Event handling, DOM manipulation, logic, and functions
+* **TypeScript**: Static typing, interfaces, classes, and generics
+* **React and Next.js**: Components, props, routes, state, SSR
+* **Tailwind CSS**: Modern and utility-first styling
+* **Figma**: Prototyping, UI design, and reusable components
 
-## 🧠 O que você encontrará aqui
+## 🧠 What You’ll Find Here
 
-Este repositório será organizado por pastas, cada uma representando uma seção abordada no curso. Dentro das pastas temos arquivos de aula e alguns exercícios.
+This repository is organized into folders, each representing a section covered in the course. Inside the folders, you’ll find lesson files and some exercises.
 
-#
-Este curso ainda está em andamento, mas aqui embaixo você pode encontrar certificados de outros cursos que já conclui.
+---
+
+This course is still in progress, but below you can find certificates from other courses I’ve already completed.
+
 
 <div align="center">
   
