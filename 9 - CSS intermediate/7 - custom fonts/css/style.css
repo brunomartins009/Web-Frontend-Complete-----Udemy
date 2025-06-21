@@ -1,0 +1,24 @@
+@font-face {
+    font-family: Halloween;
+    src: url(../fonts/halloween_4/halloween.ttf),
+        url(../fonts/halloween_4/halloween.otf),
+        url(../fonts/halloween_4/halloween.woff),
+        url(../fonts/halloween_4/halloween.woff2);
+}
+
+@font-face {
+    font-family: Christmas;
+    src: url(../fonts/merry_christmas/MerryChristmasFlake.ttf);
+}
+
+h1 {
+    color: red;
+    font-size: 7em;
+    font-family: 'Christmas', Arial, Helvetica, sans-serif;
+}
+
+h2 {
+    color: purple;
+    font-size: 1em;
+    font-family: 'Halloween', Arial, Helvetica, sans-serif;
+}
