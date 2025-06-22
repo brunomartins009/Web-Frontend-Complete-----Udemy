@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mais sobre seltores</title>
+
+    <style>
+        
+        /* Seletor universal
+        * {
+            border: 1px solid red;
+            margin: 0;
+            padding: 0;
+        } */
+
+        /* Seletor de texto 
+        h1, p, h2 {
+            border: 1px solid red;
+        }*/
+
+        /* Seletor de classe 
+        h1.destaque {
+            background: red;
+        }
+
+        p.destaque {
+            background: purple;
+        }
+
+        .titulo {
+            color: white;
+        }*/
+
+        /* Seletor de ID 
+        div#promocao {
+            background-color: purple;
+        }
+
+        span#promocao {
+            background-color: green;
+        }*/
+
+        /* Seletor de filho 
+        div>h1 {
+            background-color: orange;
+        }
+
+        li>a {
+            color: brown;
+            text-decoration: none;
+        }*/
+
+        /* Seletor de descendente 
+        div h1 {
+            background-color: orange;
+        }
+
+        li a {
+            color: brown;
+            text-decoration: none;
+        }*/
+
+        /* Seltor de irmão adjacente 
+        h1+p {
+            color: brown;
+            border: 1px solid brown;
+        }*/
+
+        /* Seltor de irmão geral 
+        h1~p {
+            color: brown;
+            border: 1px solid brown;
+        }*/
+
+    </style>
+
+</head>
+<body>
+
+    <h1 class="destaque titulo">Título da página</h1>
+    
+    <h2>Subtítulo da página</h2>
+    <p class="destaque" >
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nobis vero totam doloribus delectus odio dolorum pariatur provident. Provident dolor voluptas sit asperiores tempora temporibus omnis ipsam maxime eaque magnam.
+    </p>
+    <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis itaque debitis dolorum incidunt totam dolorem quibusdam neque, repudiandae, sint voluptatem alias. Quis atque obcaecati quas nobis praesentium laudantium quaerat dolores.
+    </p>
+    <h2>Subtítulo da página</h2>
+    <p>
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nobis vero totam doloribus delectus odio dolorum pariatur provident. Provident dolor voluptas sit asperiores tempora temporibus omnis ipsam maxime eaque magnam.
+    </p>
+
+    <div id="promocao">
+        <h2>Subtítulo da página</h2>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Modi nobis vero totam doloribus delectus odio dolorum pariatur provident. Provident dolor voluptas sit asperiores tempora temporibus omnis ipsam maxime eaque magnam.
+        </p>
+    </div>
+
+    <span id="promocao">
+        <h2>Subtítulo da página</h2>
+        <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit dolorem vitae odit accusamus quam ut vero doloribus eos in impedit, exercitationem doloremque est recusandae ipsa quia laboriosam. Ad, praesentium voluptatibus.
+        </p>
+    </span>
+
+    <div style="border: 1px solid black;"><!--pai-->
+        <h1>Título da página</h1><!--filho-->
+        <span style="background-color: gray;"><!--filho-->
+            <h1>Título da página</h1><!--neto-->
+        </span>
+    </div>
+
+    <ul>
+        <li>
+            <a href="">Home</a>
+            <span><a href="">Contato    </a></span>
+        </li>
+        <li>
+            <a href="">Sobre</a>
+        </li>
+    </ul>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit dolorem vitae odit accusamus quam ut vero doloribus eos in impedit, exercitationem doloremque est recusandae ipsa quia laboriosam. Ad, praesentium voluptatibus.
+    </p>
+
+    <h1>Título da página</h1>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit dolorem vitae odit accusamus quam ut vero doloribus eos in impedit, exercitationem doloremque est recusandae ipsa quia laboriosam. Ad, praesentium voluptatibus.
+    </p>
+
+    <p>
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Velit dolorem vitae odit accusamus quam ut vero doloribus eos in impedit, exercitationem doloremque est recusandae ipsa quia laboriosam. Ad, praesentium voluptatibus.
+    </p>
+
+</body>
+</html>

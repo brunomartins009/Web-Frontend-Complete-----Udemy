@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-classes & Pseudo-elements</title>
+
+    <style>
+        /* Pseudo-classe 
+        a:hover {
+            background-color: purple;
+            color: white;
+        }*/
+
+        /* Links */
+        a, a:link {
+            text-decoration: none;
+            color: green;
+            padding: 0.5em 1em;
+        }
+
+        /* Links não visitados
+        a:link {
+            color: grey;
+        }*/
+        
+        /* Links já visitados 
+        a:visited {
+            color: red;
+        }*/
+
+        /* Links hover, passar o cursor sobre o link */
+        a:hover {
+            background-color: green;
+            color: white;
+        }
+
+        /* Links ativos */
+        a:active {
+            background-color: purple;
+        }
+
+        /* Formulários */
+        input:checked {
+            margin-left: 20px;
+        }
+
+        input:focus {
+            background-color: purple;
+            color: white;
+        }
+
+        input:required {
+            border: 2px solid red;
+        }
+
+        /* Pseudo-elementos */
+        p::first-line {
+            color: red;
+        }
+
+        p::first-letter {
+            font-size: 3em;
+            color: purple;
+        }
+
+        p::selection {
+            background-color: yellow;
+        }
+
+        h2::before {
+            content: "[";
+            color: violet;
+        }
+
+        h2::after {
+            content: "]";
+            color: violet;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div>
+        Conteúdo da DIV
+    </div>
+
+    <h2>Conteúdo do H2</h2>
+
+    <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque, maxime eligendi totam qui provident consectetur architecto commodi tenetur nemo quibusdam voluptatibus velit autem temporibus cupiditate a reiciendis corporis! Molestias, odit.
+    </p>
+
+    <a href="https://www.google.com">Google</a> | 
+    <a href="https://www.facebook.com">Facebook</a> | 
+    <a href="https://www.instagram.com">Instagram</a>
+
+    <h2>Formulário</h2>
+    <input type="checkbox"> aceito <br>
+    <input type="radio" name="opcao"> Sim <br> 
+    <input type="radio" name="opcao"> Não <br>
+    <input type="text" required placeholder="Digite seu nome">
+    
+</body>
+</html>

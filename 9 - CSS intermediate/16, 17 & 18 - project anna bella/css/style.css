@@ -1,0 +1,33 @@
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background: #d2d2c1 url('../img/fundo.png');
+}
+
+#principal {
+    width: 900px;
+}
+
+#menu {
+    padding: 20px;
+    background: #c5c5b2;
+}
+
+#conteudo {
+    padding: 10px;
+    background-color: #e8e8d9;
+}
+
+#rodape {
+    text-align: center;
+}
+
+a {
+    color: #4b566a;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    color: #828271;
+    font-size: 1.3em;
+}

@@ -1,0 +1,17 @@
+h1 {
+    color: green;
+}
+
+h1+p {
+    padding-top: 10px;
+    border-top: 3px solid grey;
+}
+
+p>a {
+    background-color: purple;
+    color: white;
+}
+
+p.destaque {
+    color: purple;
+}

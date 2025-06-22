@@ -1,0 +1,14 @@
+a {
+    padding: 0.5em 1em;
+    color: blueviolet;
+    text-decoration: none;
+}
+
+a:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+a:active {
+    color: lightblue;
+}

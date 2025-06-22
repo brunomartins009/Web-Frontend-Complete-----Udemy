@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inheritance and Specificity</title>
+
+    <style>
+        
+        /* Herança 
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: black;
+        }
+        
+        h1 {
+            color: violet;
+        }*/
+
+        /* Especificidade
+        é a maneira de como os navegadores definem quais valores
+        de propriedades são os mais relevantes para o elemento a ser
+        utilizado. A especificidade é baseada apenas nas regras impostas
+        na composição de diferentes tipos de seletores.
+
+        calculadora: https://specificity.keegan.st/
+
+        Ordem de aplicação das formatações:
+        1. Regra com !important
+        2. Seletores mais específicos
+        3. Última regra processada
+        
+
+        p {
+            color: blueviolet !important;
+        }
+        
+        p {
+            color: red;
+        }
+
+        p[class] {
+            border: 1px solid red;
+        }
+
+        Seletores mais específicos: (Ordem de precedencia)
+        1) Estilo em linha (inline style)
+        2) IDs
+        3) Classes, atributos e pseudo-classes
+        4) Elementos e pseudo-elementos
+         */
+
+    </style>
+
+</head>
+<body>
+
+    <h1>Título</h1>
+    <p class="destaque">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo quod expedita nostrum ratione, unde ipsam illo at quam, quos maxime iure rem voluptates perferendis adipisci inventore, quisquam et! Ad, maxime?</p>
+    <p class="teste">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo quod expedita nostrum ratione, unde ipsam illo at quam, quos maxime iure rem voluptates perferendis adipisci inventore, quisquam et! Ad, maxime?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo quod expedita nostrum ratione, unde ipsam illo at quam, quos maxime iure rem voluptates perferendis adipisci inventore, quisquam et! Ad, maxime?</p>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nemo quod expedita nostrum ratione, unde ipsam illo at quam, quos maxime iure rem voluptates perferendis adipisci inventore, quisquam et! Ad, maxime?</p>
+    
+</body>
+</html>
