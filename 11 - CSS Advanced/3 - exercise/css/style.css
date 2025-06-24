@@ -1,0 +1,45 @@
+body {
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+}
+
+#principal {
+    background-color: white;
+    margin: 25px auto;
+    width: 700px;
+    padding: 20px;
+    position: relative;
+}
+
+#menu {
+    background-color: #0497f3;
+    padding: 20px;
+}
+
+#chat {
+    background-color: violet;
+    width: 150px;
+    height: 200px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    padding: 20px ;
+}
+
+.novo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;  
+}
+
+a:hover {
+    background-color: white;
+    color: #0497f3;
+}
