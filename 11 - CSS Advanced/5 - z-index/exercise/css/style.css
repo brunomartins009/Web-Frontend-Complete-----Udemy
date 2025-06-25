@@ -1,0 +1,30 @@
+#promocao {
+    background-color: purple;
+    width: 900px;
+}
+
+#limitado {
+    background-color: orange;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+    position: absolute;
+    top: 280px;
+    left: 57px;
+    padding: 10px 20px;
+    font-size: 1.2em;
+}
+
+#quero {
+    background-color: white;
+    color: purple;
+    text-align: center;
+    border: 2px dotted purple;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    width: 670px;
+    padding: 20px;
+    position: absolute;
+    top: 345px;
+    left: 100px;
+}
