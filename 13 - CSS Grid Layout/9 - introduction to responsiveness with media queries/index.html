@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introdução à responsividade com Media Queries</title>
+
+    <style>
+        body{
+            font-size: 1.2rem;
+            background-color: black;
+            color: white;
+            padding: 0;
+            margin: 0;
+        }
+
+        .grid {
+            display: grid;
+            row-gap: 20px;
+            column-gap: 20px;
+            border: 3px solid yellowgreen;
+            grid-template-columns: 1fr;
+                grid-template-areas: 
+                    'cabecalho'
+                    'navegacao'
+                    'principal'
+                    'rodape';
+                ;
+        }
+
+        /* celular, tablet, notebook */
+        @media (min-width: 600px){
+            .grid {
+                grid-template-columns: 1fr 2fr;
+                grid-template-areas: 
+                    'cabecalho cabecalho'
+                    'navegacao principal'
+                    'rodape rodape';
+                ;
+            }
+        }
+
+        @media (min-width: 1200px){
+            .grid {
+                grid-template-columns: 1fr 2fr;
+                grid-template-areas: 
+                    'cabecalho cabecalho'
+                    'navegacao principal'
+                    'navegacao rodape';
+                ;
+            }
+        }
+
+        header, nav, main, footer {
+            border: 3px solid yellowgreen;
+        }
+
+        header { grid-area: cabecalho;}
+        nav { grid-area: navegacao;}
+        main { grid-area: principal;}
+        footer { grid-area: rodape;}
+    </style>
+    
+</head>
+<body>
+    
+    <div class="grid">
+        <header>Cabeçalho</header>
+        <nav>menu de navegação</nav>
+        <main>
+            <h2>Conteúdo do sistema</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                Nostrum magnam suscipit minima doloremque aliquid mollitia
+            </p>
+        </main>
+        <footer>Rodapé</footer>
+    </div>
+
+</body>
+</html>
